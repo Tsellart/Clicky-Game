@@ -1,10 +1,16 @@
 .navbar {
-  background: #490549;
+  background: #a35c47;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
 }
 
 li {
   color: white;
   padding: 15px 0;
+
 }
 
+h4 {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
-import FriendCard from "./components/FriendCard";
+import BeanCard from "./components/BeanCard";
 import Bean from "./beans.json";
 import "./App.css";
 
@@ -66,7 +66,7 @@ class App extends Component {
         <Jumbotron />
         <div className="wrapper">
           {this.state.Bean.map(Bean => (
-            <FriendCard
+            <BeanCard
               imageClick={this.imageClick}
               id={Bean.id}
               key={Bean.id}

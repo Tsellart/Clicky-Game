@@ -1,8 +1,8 @@
 import React from "react";
-import "./FriendCard.css";
+import "./BeanCard.css";
 
 
-const FriendCard = props => (
+const BeanCard = props => (
   <div className="card" onClick={props.imageClick}>
     <div className="img-container">
       <img alt={props.image.replace(".jpg", "")} src={require("../../images/" + props.image)} />
@@ -10,4 +10,4 @@ const FriendCard = props => (
   </div>
 );
 
-export default FriendCard;
+export default BeanCard;
